@@ -1,21 +1,27 @@
 <html>
     <head>
 <link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <script src="./assets/js/index.js"></script>
 
     </head>
     <body>
-                <form class="todo-sec">
-                  <h3>crud operation</h3>
-                  <div>
-                         <h3>Full Name :</h3>
-                         <input type="text" id="fullName" name ="fullName" placeholder="please enter the full name" size=30>
-                    </div>
+        <h1>CRUD OPERATION</h1>
+                <form class="todo-sec" >
+                    <tr>
+                        <h3>Full Name : </h3>
+                        <input type="text" id="fullName" name ="fullName" placeholder="please enter the full name" size=30><br>
+                    </tr>
                       <div class="form-action-buttons">
                       <button type= "submit" onclick="createCrudList()">ADD</button>
-                      </div>
+                    </div>
                     </form>
-           <table class="list" id="employeeList">
+                   <div class="col-md-4"></div>
+                   <div class="col-md-4"> 
+           <table class="list table table-bordered" id="employeeList">
                <thead>
                    <tr>
                    <th>Name</th>
@@ -26,7 +32,10 @@
 
                </tbody>
            </table>
-       </td>
+        </td>
+    </div>
+    <div class="col-md-4"></div>
+
        <script src="./assets/js/index.js"></script>
            </body>
 </html>

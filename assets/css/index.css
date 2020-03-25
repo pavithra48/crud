@@ -1,8 +1,32 @@
 .todo-sec {
 	text-align: center;
-	background-color: #ffff;
+	background-color: aquamarine;
 	margin: 0px auto;
 	margin-top: 100px;
 	font-weight: bold;
 	font-style: inherit;
+	width: 40%;
+	margin-bottom: 100px;
+}
+.form-action-buttons {
+	margin-top: 7px;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+.todo-sec h3 {
+	display: inline-block;
+	font-family: 'Times New Roman';
+}
+button {
+	background-color: olivedrab;
+	padding-top: 3px;
+	display: inline-block;
+	margin-top: 20px;
+	color: white;
+}
+.list {
+	text-align: center;
+	background-color: powderblue;
 }
