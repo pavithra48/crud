@@ -1,12 +1,14 @@
 .todo-sec {
 	text-align: center;
-	background-color: aquamarine;
 	margin: 0px auto;
 	margin-top: 100px;
 	font-weight: bold;
 	font-style: inherit;
 	width: 40%;
 	margin-bottom: 100px;
+}
+body {
+	background-color: khaki !important;
 }
 .form-action-buttons {
 	margin-top: 7px;
@@ -28,5 +30,5 @@ button {
 }
 .list {
 	text-align: center;
-	background-color: powderblue;
+	background-color: lightcoral;
 }
