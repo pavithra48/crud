@@ -9,12 +9,13 @@
 
     </head>
     <body>
-        <h1>CRUD OPERATION</h1>
+       <div class="container">
+           <div>
+               <h1>CRUD OPERATION</h1>
                 <form class="todo-sec" >
                     <tr>
-                        <h3>Full Name : </h3>
-                        <input type="text" id="fullName" name ="fullName" placeholder="please enter the full name" size=30><br>
-                        <input type="text" id="listName" class="hide" size=30><br>
+                        <input type="text"  class="form-control" id="fullName" name ="fullName" placeholder="please enter the full name" size=30>
+                        <input type="text" id="listName" class="hide" size=30>  
                     </tr>
                       <div class="form-action-buttons">
                       <button type= "submit" id="add" onclick="createCrudList()">ADD</button>
@@ -29,6 +30,7 @@
                    <tr>
                    <th>Name</th>
                    <th>Action</th>
+                   <th>Update</th>
                 </tr>
                </thead>
                <tbody id ="tbodyList">
@@ -37,7 +39,9 @@
            </table>
         </td>
     </div>
+    </div>
     <div class="col-md-4"></div>
+</div>
 
        <script src="./assets/js/index.js"></script>
            </body>
