@@ -14,9 +14,12 @@
                     <tr>
                         <h3>Full Name : </h3>
                         <input type="text" id="fullName" name ="fullName" placeholder="please enter the full name" size=30><br>
+                        <input type="text" id="listName" class="hide" size=30><br>
                     </tr>
                       <div class="form-action-buttons">
-                      <button type= "submit" onclick="createCrudList()">ADD</button>
+                      <button type= "submit" id="add" onclick="createCrudList()">ADD</button>
+                      <button type= "submit" id="update" class="hide" onclick="updateCrudList()">Update</button>
+
                     </div>
                     </form>
                    <div class="col-md-4"></div>

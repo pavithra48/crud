@@ -9,6 +9,7 @@
 }
 body {
 	background-color: khaki !important;
+	background-image: url("/w3images/nature.jpg");
 }
 .form-action-buttons {
 	margin-top: 7px;
