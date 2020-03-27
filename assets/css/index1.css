@@ -13,5 +13,9 @@ body {
 }
 .navbar {
 	margin-bottom: 0px !important;
-	font-family: "gotham-medium";
+	font-family: "gotham-book";
+	font-weight: 600;
+}
+.header {
+	font-family: "gotham-book" !important;
 }

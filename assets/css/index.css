@@ -8,6 +8,9 @@
 	margin-bottom: 100px;
 	font-family: "gotham-medium";
 }
+.header {
+	font-family: "gotham-book" !important;
+}
 body {
 	background-color: rgb(180, 189, 112) !important;
 	font-family: "gotham-medium";
@@ -15,6 +18,7 @@ body {
 .form-action-buttons {
 	margin-top: 7px;
 	display: inline-block !important;
+	border: 5px solid lightgray;
 }
 .form-control {
 	display: inline-block !important;

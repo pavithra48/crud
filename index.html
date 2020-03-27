@@ -10,7 +10,8 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-inverse">
+        <div class="header">
+           <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
               </div>
@@ -22,6 +23,7 @@
               </ul>
             </div>
           </nav>
+        </div>
           
        <div class="container">
            <div class="banner">
@@ -37,8 +39,8 @@
                               <input type="text" id="listName" class="hide" size=50>  
                            </tr>
                            <div class="form-action-buttons">
-                                <button type= "submit" id="add" onclick="createCrudList()">ADD</button>
-                               <button type= "submit" id="update" class="hide" onclick="updateCrudList()">Update</button>  
+                                <button  id="add" onclick="createCrudList()">ADD</button>
+                               <button id="update" class="hide" onclick="updateCrudList()">Update</button>  
                            </div>
                     </form>
                 </div>

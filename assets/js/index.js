@@ -109,11 +109,19 @@ function editList(listId){
     document.getElementById("listName").value= editListName;
 }
 function updateCrudList(){
-    editList.preventDefault();
+    event.preventDefault();
     var listId = document.getElementById("listName").value;
     console.log("listId",listId);
-    // var newListName= document.getElementById("fullName").value;
-    // console.log("newListName",newListName);
-    // var newListNameElement= document.getElementById("listNameElement" + listId);
-    // console.log("newListNameElement",newListNameElement);
+    var newListName= document.getElementById("fullName").value;
+     console.log("newListName",newListName);
+    var newListNameElement= document.getElementById("listNameElement" + listId);
+    // newListNameElement.innerHTML=newListName;
+    // crudList.map(function(crudObject)){
+        crudList.map(function(crudObject){
+            if(crudObject["id"]=listId){
+                crudObject["name"]=listId;
+            }
+    
+        });
+    console.log("newListNameElement",newListNameElement);
 }
