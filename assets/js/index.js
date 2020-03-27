@@ -47,29 +47,29 @@ function createCrudList(){
      var listEditElement = document.createElement("td");
      console.log("listEditElement",listEditElement);
 
-     var DeleteBtn = document.createElement("button");
-     console.log("DeleteBtn",DeleteBtn);
-     DeleteBtn.appendChild(document.createTextNode("Delete"));
-     DeleteBtn.onclick=function(){
+     var deleteBtn = document.createElement("button");
+     console.log("deleteBtn",deleteBtn);
+     deleteBtn.appendChild(document.createTextNode("Delete"));
+     deleteBtn.onclick=function(){
      deleteList(listId);
      }
 
     
-     var EditBtn = document.createElement("button");
-     console.log("EditBtn",EditBtn);
-     EditBtn.appendChild(document.createTextNode("Edit"));
-     EditBtn.onclick=function(){
+     var editBtn = document.createElement("button");
+     console.log("editBtn",editBtn);
+     editBtn.appendChild(document.createTextNode("Edit"));
+     editBtn.onclick=function(){
     editList(listId);
 
      }
      
      listNameElement.appendChild(listName);
      console.log("listNameElement.appendChild(listName)",listNameElement.appendChild(listName));
-     listDeleteElement.appendChild(DeleteBtn);
-     console.log("listDeleteElement.appendChild(DeleteBtn)",listDeleteElement.appendChild(DeleteBtn));
+     listDeleteElement.appendChild(deleteBtn);
+     console.log("listDeleteElement.appendChild(deleteBtn)",listDeleteElement.appendChild(deleteBtn));
 
-     listEditElement.appendChild(EditBtn);
-     console.log("listEditElement.appendChild(EditBtn)",listEditElement.appendChild(EditBtn));
+     listEditElement.appendChild(editBtn);
+     console.log("listEditElement.appendChild(editBtn)",listEditElement.appendChild(editBtn));
      
      listRow.appendChild(listNameElement);
      console.log("listRow.appendChild(listNameElement)",listRow.appendChild(listNameElement));
@@ -107,15 +107,13 @@ function editList(listId){
     var editListName = document.getElementById("listNameElement" + listId).innerHTML;
     console.log("editListName",editListName);
     document.getElementById("listName").value= editListName;
-
-
-
 }
 function updateCrudList(){
+    editList.preventDefault();
     var listId = document.getElementById("listName").value;
-    console.log("listId");
-    var newListName= document.getElementById("fullName").value;
-    console.log("newListName",newListName);
-    var newListNameElement= document.getElementById("listNameElement" + listId);
-    console.log("newListNameElement",newListNameElement);
+    console.log("listId",listId);
+    // var newListName= document.getElementById("fullName").value;
+    // console.log("newListName",newListName);
+    // var newListNameElement= document.getElementById("listNameElement" + listId);
+    // console.log("newListNameElement",newListNameElement);
 }

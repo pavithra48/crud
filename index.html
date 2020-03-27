@@ -26,19 +26,25 @@
        <div class="container">
            <div class="banner">
                  <img src="assets/images/task.png">
-                        <h1>CRUD OPERATION</h1>
+                        <h1>CRUD TASK</h1>
+                        <div class="img-bar">
+                            <img src="assets/images/progress.jpg">
+                        </div>
+
                       <form class="todo-sec" >
-                           <tr>
-                              <input type="text"  class="form-control" id="fullName" name ="fullName" placeholder="please enter the full name" size=30>
+                           <tr class="align">
+                              <input type="text" id="fullName" name ="fullName" placeholder="please enter the full name" size=50>
                               <input type="text" id="listName" class="hide" size=30>  
                            </tr>
                            <div class="form-action-buttons">
-                                <button type= "submit" id="add" class="hide" onclick="createCrudList()">ADD</button>
+                                <button type= "submit" id="add" onclick="createCrudList()">ADD</button>
                                <button type= "submit" id="update" class="hide" onclick="updateCrudList()">Update</button>  
                            </div>
                     </form>
                 </div>
             </div>
+            
+            <div class="container">
                    <div class="col-md-12">
            <table class="list table table-bordered" id="employeeList">
                <thead>
@@ -53,6 +59,7 @@
                </tbody>
            </table>
         </td>
+    </div>
     </div>
 </div>
 
