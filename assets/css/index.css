@@ -27,7 +27,7 @@ body {
 	text-align: center;
 	font-family: "gotham-medium" !important;
 	display: inline-block;
-	margin-left: 60px;
+	margin-left: 120px;
 }
 .banner.todo-sec h3 {
 	display: inline-block;
@@ -69,14 +69,14 @@ table {
 }
 .img-bar {
 	display: inline-block;
-	width: 20%;
+	width: 40%;
 	height: 20%;
-	margin-left: 9s0px;
+	margin-left: 60px;
 }
 .img-bar img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .align {
 	border-radius: 2px solid lightgray !important;
