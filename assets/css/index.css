@@ -4,7 +4,6 @@
 	margin-top: 100px;
 	font-weight: bold;
 	font-style: inherit;
-	width: 40%;
 	margin-bottom: 100px;
 	font-family: "gotham-medium";
 }
@@ -22,7 +21,7 @@ body {
 }
 .form-control {
 	display: inline-block !important;
-	width: 80% !important;
+	width: 70% !important;
 }
 .container-fluid {
 	font-family: "gotham-medium" !important;
