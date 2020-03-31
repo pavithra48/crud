@@ -6,13 +6,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/font.css">
 <script src="./assets/js/index.js"></script>
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/jquery.validate.js"></script>
 
     </head>
     <body>
-        <div class="header">
-           <nav class="navbar navbar-inverse">
+        <div class="header">      
+    <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
               </div>
@@ -36,11 +34,11 @@
 
                       <form class="todo-sec" >
                            <tr class="align">
-                              <input type="text" required id="fullName" name ="fullName" placeholder="Please Enter the Full Name" size=50>
+                              <input type="text"required id="fullName" name ="fullName" placeholder="Please Enter the Full Name" size=50>
                               <input type="text" id="listName" class="hide" size=50>  
                            </tr>
                            <div class="form-action-buttons">
-                                <button  id="add" onclick="createCrudList()">ADD</button>
+                            <button  id="add" onclick="validateForm()" type="submit" >ADD</button>
                                <button id="update" class="hide" onclick="updateCrudList()">Update</button>  
                            </div>
                     </form>
@@ -67,9 +65,19 @@
 </div>
 
        <script src="./assets/js/index.js"></script>
-
-       <script>
-         $("#commentForm").validate();
-       </script>
-           </body>
+          </body>
+          <div class="footer">
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index2.html">Javascript Task</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index2.html">About Us</a></li>
+                  <li><a href="index.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </nav>         
+    </div>
 </html>

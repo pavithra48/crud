@@ -11,7 +11,7 @@
 	font-family: "gotham-book" !important;
 }
 body {
-	background-color: rgb(180, 189, 112) !important;
+	background-color: floralwhite !important;
 	font-family: "gotham-medium";
 }
 .form-action-buttons {
@@ -86,9 +86,28 @@ table {
 }
 input {
 	padding: 9px !important;
-	border: 3px !important;
+	/* border: 2px black !important;	 */
 	margin: 5px;
 }
 th {
 	text-align: center !important;
+}
+/* .footer {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	margin-top: 140px;
+}
+.footer {
+	font-family: "gotham-medium";
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+} */
+.footer {
+	width: 100%;
+	margin-top: 125px;
+	text-align: center;
 }

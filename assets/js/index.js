@@ -14,6 +14,16 @@
 //     cell = newRow.insertCell(0);
 //     cell.innerHTML = data.fullName;
 // }
+function validateForm() {
+  var x = document.getElementById("fullName").value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }else if(x != "") {
+    createCrudList();
+  }
+}
+
 
 var crudList = [];
 function createCrudList() {
