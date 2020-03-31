@@ -5,8 +5,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/font.css">
-
 <script src="./assets/js/index.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.validate.js"></script>
 
     </head>
     <body>
@@ -35,7 +36,7 @@
 
                       <form class="todo-sec" >
                            <tr class="align">
-                              <input type="text" id="fullName" name ="fullName" placeholder="Please Enter the Full Name" size=50>
+                              <input type="text" required id="fullName" name ="fullName" placeholder="Please Enter the Full Name" size=50>
                               <input type="text" id="listName" class="hide" size=50>  
                            </tr>
                            <div class="form-action-buttons">
@@ -66,5 +67,9 @@
 </div>
 
        <script src="./assets/js/index.js"></script>
+
+       <script>
+         $("#commentForm").validate();
+       </script>
            </body>
 </html>
